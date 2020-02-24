@@ -2,7 +2,11 @@
   <div>
     <section class="section">
       <div class="container has-text-centered">
-        <button class="button is-secondary is-medium" :class="{'is-loading': loading}" @click="fetchImages">Get More Images</button>
+        <button
+          class="button is-secondary is-medium"
+          :class="{'is-loading': loading}"
+          @click="fetchImages"
+        >Get More Images</button>
       </div>
     </section>
     <section class="section is-paddingless">
