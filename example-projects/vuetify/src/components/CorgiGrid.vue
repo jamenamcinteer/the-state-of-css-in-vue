@@ -1,9 +1,8 @@
 <template>
   <v-container class="grey lighten-5" fluid>
-    <div class="text-center">
+    <div class="text-center ma-8">
         <v-btn :loading="loading" :disabled="loading" @click="fetchImages" color="rgb(221, 70, 0)" class="white--text" x-large>Get More Images</v-btn>
     </div>
-    <v-spacer />
     <v-row>
       <v-col
         v-for="(dog, index) in dogs"
@@ -54,7 +53,6 @@
         .then((myJson) => {
           this.dogs = myJson.message;
           this.loading = false;
-          console.log(myJson);
         });
     }
   }

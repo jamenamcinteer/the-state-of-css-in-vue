@@ -12,9 +12,10 @@
       <v-spacer></v-spacer>
 
       <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
+        href="https://github.com/jamenamcinteer/the-state-of-css-in-vue/tree/master/example-projects/vuetify"
         target="_blank"
         text
+        class="d-none d-sm-flex"
       >
         <span class="mr-2">View on Github</span>
         <v-icon>mdi-open-in-new</v-icon>
